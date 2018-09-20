@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DamageHurt {
+public class DamageHurt : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
