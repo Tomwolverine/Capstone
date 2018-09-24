@@ -5,7 +5,7 @@ using UnityEngine;
 public class FP_Shooting : MonoBehaviour {
 
     public GameObject arrow_prefab;
-    float arrowImpulse = 15f;
+    float arrowImpulse = 18f;
 	// Use this for initialization
 	void Start () {
 		
