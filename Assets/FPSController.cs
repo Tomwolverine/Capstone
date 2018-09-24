@@ -35,7 +35,7 @@ public class FPSController : MonoBehaviour {
                 transform.Rotate(0, rotLeftRight, 0);
 
                 verticalRotation -= Input.GetAxis("Mouse Y") * mouseSensitivity;
-                verticalRotation = Mathf.Clamp(verticalRotation, -upDownRange, upDownRange);
+                //verticalRotation = Mathf.Clamp(verticalRotation, -upDownRange, upDownRange);
                 Camera.main.transform.localRotation = Quaternion.Euler(verticalRotation, 0, 0);
 
         //Movement
