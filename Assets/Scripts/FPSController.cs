@@ -54,7 +54,7 @@ public class FPSController : MonoBehaviour {
 
         void OnTriggerEnter(Collider col){
                 var target = col.gameObject.name;
-                if (target.Contains("Skeleton")){
+                if (target.Contains("Goblin")){
                         TakeDamage(25);
 
                 }
