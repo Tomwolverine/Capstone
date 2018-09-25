@@ -60,6 +60,9 @@ public class FPSController : MonoBehaviour {
 				if (target.Contains("Skeletons")){
 						TakeDamage(10);
 				}
+				if (target.Contains('VelluaArcher')){
+						TakeDamage(25);
+				}
                 if (target.Contains("coins")){
                         Destroy(col.gameObject);
                         gold += 1;
