@@ -60,14 +60,24 @@ public class FPSController : MonoBehaviour {
 				if (target.Contains("Skeletons")){
 						TakeDamage(10);
 				}
-				//if (target.Contains('Vellua')){
-						//TakeDamage(25);
-				//}
+				if (target.Contains("Arche")){
+						TakeDamage(25);
+				}
                 if (target.Contains("coins")){
                         Destroy(col.gameObject);
                         gold += 1;
                 }
+				if (target.Contains("Food"))
+						IncreaseHealth(10);
+
         }
+		void IncreaseHealth(int healthUp){
+				if (health + healthUp <= maxHealth) {
+					health += healthUp;
+				} else {
+					health = maxHealth;
+				}
+		}
         void TakeDamage(int damage) {
                 health -= damage;
                 if(health < 1) {
