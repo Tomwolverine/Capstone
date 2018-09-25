@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33000010512270192}
   - component: {fileID: 23000012251559138}
   - component: {fileID: 95000010106364482}
+  - component: {fileID: 65616845727860340}
   m_Layer: 0
   m_Name: coins
   m_TagString: Untagged
@@ -36,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010387986644}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 14.680308, y: -0.098, z: -35.031}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -84,6 +85,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010387986644}
   m_Mesh: {fileID: 4300000, guid: dd8ebbdcc572196408a6805681c6a297, type: 3}
+--- !u!65 &65616845727860340
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010387986644}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.7, y: 0.7, z: 0.18}
+  m_Center: {x: -0.016006969, y: 0.00432554, z: 0.26676452}
 --- !u!95 &95000010106364482
 Animator:
   serializedVersion: 3
