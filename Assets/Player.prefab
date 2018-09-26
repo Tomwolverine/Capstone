@@ -203,7 +203,7 @@ MonoBehaviour:
   health: 70
   maxHealth: 100
   gold: 0
-  upDownRange: 30
+  upDownRange: 80
 --- !u!114 &114943011554799362
 MonoBehaviour:
   m_ObjectHideFlags: 1

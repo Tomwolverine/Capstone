@@ -3792,16 +3792,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 20582531977187460, guid: dccdf40480a864947af3cf7351d08f81,
-        type: 2}
-      propertyPath: field of view
-      value: 58
-      objectReference: {fileID: 0}
-    - target: {fileID: 114937283687296790, guid: dccdf40480a864947af3cf7351d08f81,
-        type: 2}
-      propertyPath: upDownRange
-      value: 80
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dccdf40480a864947af3cf7351d08f81, type: 2}
   m_IsPrefabAsset: 0
