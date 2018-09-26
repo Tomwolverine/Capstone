@@ -10,6 +10,7 @@ public class FPSController : MonoBehaviour {
         public int health = 100;
         public int maxHealth = 100;
         public int gold = 0;
+		//[SerializeFeild]int food;
         float verticalRotation = 0;
 
         public float upDownRange = 5.0f;
@@ -55,21 +56,22 @@ public class FPSController : MonoBehaviour {
         void OnTriggerEnter(Collider col){
                 var target = col.gameObject.name;
                 if (target.Contains("Goblin")){
-                        TakeDamage(15);
+					TakeDamage(15);
                 }
 				if (target.Contains("Skeletons")){
-						TakeDamage(10);
+					TakeDamage(10);
 				}
 				if (target.Contains("Arche")){
-						TakeDamage(25);
+					TakeDamage(25);
 				}
                 if (target.Contains("coins")){
-                        Destroy(col.gameObject);
-                        gold += 1;
+					Destroy(col.gameObject);
+					gold += 1;
                 }
-				if (target.Contains("Food"))
-						IncreaseHealth(10);
-
+				if (target.Contains("Food")){
+					Destroy(col.gameObject);
+					IncreaseHealth(10);
+				}
         }
 		void IncreaseHealth(int healthUp){
 				if (health + healthUp <= maxHealth) {

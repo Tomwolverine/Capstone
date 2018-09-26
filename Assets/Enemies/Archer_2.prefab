@@ -338,6 +338,8 @@ GameObject:
   - component: {fileID: 95560428370237072}
   - component: {fileID: 64009403036346970}
   - component: {fileID: 114409825812562460}
+  - component: {fileID: 65125799415949182}
+  - component: {fileID: 114603362386597772}
   m_Layer: 0
   m_Name: Archer_2
   m_TagString: Untagged
@@ -930,7 +932,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1384859813055294}
   m_LocalRotation: {x: -0, y: 0.9866141, z: -0, w: -0.16307236}
-  m_LocalPosition: {x: -26.784002, y: -8.8242026e-17, z: 43.71474}
+  m_LocalPosition: {x: -30.947681, y: -6.760775e-17, z: 33.492603}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4399300505769760}
@@ -1218,6 +1220,18 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 0}
+--- !u!65 &65125799415949182
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1384859813055294}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.7, z: 0}
 --- !u!95 &95560428370237072
 Animator:
   serializedVersion: 3
@@ -1242,9 +1256,23 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1384859813055294}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae6876619dcd04910a596d05255efdd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  arrowDamage: 25
+  moveSpeed: 7
+--- !u!114 &114603362386597772
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1384859813055294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 239e200702a254214b022ff248b16b45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100

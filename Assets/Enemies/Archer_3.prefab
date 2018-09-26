@@ -549,6 +549,7 @@ GameObject:
   - component: {fileID: 64263586049450506}
   - component: {fileID: 65892940048077588}
   - component: {fileID: 114031433464635476}
+  - component: {fileID: 114235847409079168}
   m_Layer: 0
   m_Name: Archer_3
   m_TagString: Untagged
@@ -1226,7 +1227,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1906236874717356}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae6876619dcd04910a596d05255efdd6, type: 3}
   m_Name: 
@@ -1234,6 +1235,20 @@ MonoBehaviour:
   health: 100
   arrowDamage: 20
   moveSpeed: 8
+--- !u!114 &114235847409079168
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1906236874717356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 239e200702a254214b022ff248b16b45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  arrowDamage: 25
+  moveSpeed: 7
 --- !u!137 &137506511323833024
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
