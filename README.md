@@ -9,7 +9,11 @@
 
 ## Project Description
 *Video Game Old School Gauntlet
+
 <img src="https://github.com/Tomwolverine/Capstone/blob/master/images/Gauntlet%20Revisited%20Screen%20Shot%202018-10-05%20at%2010.23.03%20AM.png" title = "Gauntlet Revisited screenshot" width = "285" height = "200">
+
+## Instructions
+*download beta to be avialable soon.
 
 
 ## Problem Statement
